@@ -2,6 +2,10 @@
 
 A production-ready SaaS boilerplate built with Next.js 15, Tailwind CSS v4, NextAuth v5, Stripe, and Prisma. Ship your SaaS in hours, not weeks.
 
+## Portfolio Status
+
+This is a generic starter/reference project, not one of the main showcased tools on the `kingkyylian` profile. Keep it public only if it remains useful as a small Next.js/Auth/Stripe/Prisma reference; otherwise archive or make it private to keep the profile focused on developer tooling.
+
 ## What's Included
 
 - **Auth** — Google & GitHub OAuth via NextAuth v5 + Prisma adapter
