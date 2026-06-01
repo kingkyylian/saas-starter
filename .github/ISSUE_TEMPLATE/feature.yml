@@ -1,0 +1,46 @@
+name: Feature
+description: Suggest a SaaS starter feature, integration, screen, API, or workflow.
+title: "[feature] "
+labels: ["feature", "triage"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What product or developer problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe the user-facing or system behavior clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Verification
+      description: Lint, build, auth, Stripe, database, or browser smoke expectations.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk Area
+      options:
+        - Low
+        - UI
+        - Data/API
+        - Auth/Security
+        - Payments
+        - Production infra
+    validations:
+      required: true
